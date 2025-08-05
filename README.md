@@ -71,3 +71,77 @@ This app is designed to stay online, even during backend outages.
 
 ### 🔁 Example Fallback Flow
 
+
+---
+
+## 🔐 AI Cost Management
+
+- **GPT-3.5** used for Free & Starter tiers (very affordable)
+- **GPT-4** reserved for Pro tier
+- Prompt/output size trimmed to reduce cost per generation
+- Timeline results are **cached**, reducing repeat API calls
+- Token usage logged per user to monitor high usage patterns
+
+---
+
+## 🧪 MVP Launch Plan
+
+1. Deploy core features:
+   - Prompt input
+   - Timeline generation
+   - Display timeline
+
+2. Add:
+   - Auth system
+   - Stripe billing
+   - Saved timeline dashboard
+
+3. Release:
+   - Free + paid plans
+   - Launch on Product Hunt, Reddit, AI groups
+
+---
+
+## 🛠️ Development Roadmap
+
+- [ ] MVP Launch with GPT-3.5
+- [ ] Add Pro plan with GPT-4
+- [ ] Export timeline (PDF/CSV/Image)
+- [ ] Collaborator timelines (multi-user)
+- [ ] Public gallery / embed option
+
+---
+
+## 📦 Deployment Recommendations
+
+| Platform     | Role               |
+|--------------|--------------------|
+| Vercel       | Frontend + API     |
+| Supabase     | Auth + DB + Storage |
+| Stripe       | Billing            |
+| Cloudflare   | DNS + Fallback Logic |
+| AWS Lambda   | Backup compute API |
+| OpenAI API   | Timeline generation |
+
+---
+
+## 🧠 Future Enhancements
+
+- Real-time collaboration
+- Timeline animations
+- Custom themes
+- Multi-language support
+- Embeddable widget (for blogs, LMSs)
+
+---
+
+## 📬 Contact / Contribution
+
+Have an idea? Found a bug?  
+Feel free to open an issue or email us at `support@yourdomain.com`.
+
+---
+
+## 📄 License
+
+MIT License. Built with ❤️ for educators and creators.
